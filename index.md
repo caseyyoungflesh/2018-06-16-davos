@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "Software Carpentry and Intro to HPC - POLAR 2018"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Room XXX, Davos Congress CH-7270 Davos Platz"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "A Studio, Davos Congress CH-7270 Davos Platz"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "ch"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "46.800413,9.831758"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
@@ -176,9 +176,15 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  <strong>Notes</strong>: We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+  <strong>Notes</strong>: 
 </p>
+<ul>
+  <li>We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.</li>
+  <li>Participants must be registered for the 'SCAR and IASC/ASSW Business & Satellite Meetings' (select 'ASSW or other business meetings' during conference registration)</li>
+</ul>  
+
 {% endif %}
+
 
 
 <hr/>
