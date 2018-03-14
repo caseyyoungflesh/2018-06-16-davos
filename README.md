@@ -6,8 +6,8 @@ Etherpad: http://pad.software-carpentry.org/2018-06-16-davos
 
 The site syllabus can be edited here:
 
-2018-06-16-davos/_includes/sc/syllabus.html
+`2018-06-16-davos/_includes/sc/syllabus.html`
 
 The site schedule can be edited here:
 
-2018-06-16-davos/_includes/sc/schedule.html
+`2018-06-16-davos/_includes/sc/schedule.html`
